@@ -4,9 +4,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Blog Template`,
-    description: `Free course on how to create a blog from scratch using React, Gatsby, Contentful, and Netlify.`,
-    author: `Skillthrive`,
+    title: `Lellu Blog`,
+    description: `Welcome to my Blog`,
+    author: `Jelena Novakovic`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
