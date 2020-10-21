@@ -30,8 +30,6 @@ const Guide = (props) => {
                     <Link to='/blog' className={window.location.href.indexOf('/blog') > 0 ? 'archive__nav--link selected' : 'archive__nav--link'}>All</Link>
                     <Link to='/category/travel' className={window.location.href.indexOf('category/travel') > 0 ? 'archive__nav--link selected' : 'archive__nav--link'}>Travel</Link>
                     <Link to='/category/guide' className={window.location.href.indexOf('category/guide') > 0 ? 'archive__nav--link selected' : 'archive__nav--link'}>Guide</Link>
-                    <Link to='/category/opinion' className={window.location.href.indexOf('category/opinion') > 0 ? 'archive__nav--link selected' : 'archive__nav--link'}>Opinion</Link>
-                    <Link to='/category/tech' className={window.location.href.indexOf('category/tech') > 0 ? 'archive__nav--link selected' : 'archive__nav--link'}>Tech</Link>
                 </div>
             </div>
         </header>

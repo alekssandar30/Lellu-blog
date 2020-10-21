@@ -10,7 +10,7 @@ import './index.css';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`travel`, `application`, `blog`, `lellu`, `travelling`]} />
     <Nav />
     <Featured />
     <Home />
